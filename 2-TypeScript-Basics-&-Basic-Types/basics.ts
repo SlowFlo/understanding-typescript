@@ -1,5 +1,7 @@
-let username: string;
+let userName: string;
+let userAge = 38;
 
 // ...
 
-username = "Max";
+userName = "Max";
+// userAge = "34";
