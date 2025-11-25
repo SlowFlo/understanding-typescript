@@ -1,1 +1,5 @@
-console.log("Hello World!");
+let username: string;
+
+// ...
+
+username = "Max";
