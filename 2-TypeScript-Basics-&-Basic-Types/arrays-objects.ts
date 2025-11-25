@@ -12,4 +12,22 @@ users = ["Max", "Anna"];
 let possibleResults: [number, number]; // [1, -1]
 
 possibleResults = [1, -1];
-possibleResults = [5, 10, 12];
+// possibleResults = [5, 10, 12];
+
+let user: {
+    name: string;
+    age: number | string;
+    hobbies: string[];
+    role: {
+        description: string;
+        id: number;
+    }
+} = {
+    name: "Max",
+    age: 38,
+    hobbies: ["Sports", "Cooking"],
+    role: {
+        description: "admin",
+        id: 5
+    }
+};
