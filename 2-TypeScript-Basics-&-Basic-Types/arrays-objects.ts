@@ -31,3 +31,5 @@ let user: {
         id: 5
     }
 };
+
+let val: {} = "is a value";
