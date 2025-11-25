@@ -11,6 +11,6 @@ function add(a: number, b = 5) {
 }
 
 add(10);
-add("10");
+// add("10");
 add(10, 6);
-add(10, "6");
+// add(10, "6");
