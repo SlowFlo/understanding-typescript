@@ -1,0 +1,16 @@
+{
+  "name": "3-the-typescript-compiler-and-its-configuration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
