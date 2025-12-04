@@ -4,7 +4,14 @@
 // expected return
 // duration
 
-function calulateInvestment(data) {} // => result[]
+type InvestmentData = {
+    initialAmount: number;
+    annualContribution: number;
+    expectedReturn: number;
+    duration: number;
+}
+
+function calulateInvestment(data: InvestmentData) {} // => result[]
 
 function printResults(results) {
     // print (output) the result data
