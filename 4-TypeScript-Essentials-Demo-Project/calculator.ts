@@ -73,6 +73,13 @@ function printResults(results: CalculationResult) {
     }
 }
 
-const results = calulateInvestment(...)
+const investmentData: InvestmentData = {
+    initialAmount: 5000,
+    annualContribution: 500,
+    expectedReturn: 0.08,
+    duration: 10
+};
+
+const results = calulateInvestment(investmentData);
 
 printResults(results);
