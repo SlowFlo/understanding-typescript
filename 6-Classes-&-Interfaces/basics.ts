@@ -9,7 +9,7 @@
 //   }
 // }
 
-class User {
+class UserBasic {
   readonly hobbies: string[] = []; // public by default
 
   constructor(
@@ -22,9 +22,9 @@ class User {
   }
 }
 
-const max = new User("Max", 36);
-const fred = new User("Fred", 29);
+const maxBasic = new UserBasic("Max", 36);
+const fred = new UserBasic("Fred", 29);
 
-// max.hobbies = ["Sports"];
+// maxBasic.hobbies = ["Sports"];
 
-console.log(max, fred);
+console.log(maxBasic, fred);
