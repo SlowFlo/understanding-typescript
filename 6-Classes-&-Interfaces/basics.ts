@@ -10,11 +10,11 @@
 // }
 
 class User {
-  hobbies: string[] = []; // public by default
+  readonly hobbies: string[] = []; // public by default
 
   constructor(
     public name: string,
-    private age: number,
+    private readonly age: number,
   ) {}
 
   greet() {
@@ -24,5 +24,7 @@ class User {
 
 const max = new User("Max", 36);
 const fred = new User("Fred", 29);
+
+// max.hobbies = ["Sports"];
 
 console.log(max, fred);
