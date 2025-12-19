@@ -48,3 +48,24 @@ class Employee extends User {
     // super._firstName;
   }
 }
+
+abstract class UIElement {
+  constructor(public identifier: string) {}
+
+  clone(targetLocation: string) {
+    // logic to duplicate the UI element
+  }
+}
+
+// let uiElement = new UIElement();
+
+class SideDrawerElement extends UIElement {
+  constructor(
+    identifier: string,
+    public position: "left" | "right",
+  ) {
+    super(identifier);
+  }
+
+  // ...
+}
