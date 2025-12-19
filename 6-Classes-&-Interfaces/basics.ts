@@ -10,10 +10,16 @@
 // }
 
 class User {
+  hobbies: string[] = []; // public by default
+
   constructor(
     public name: string,
-    public age: number,
+    private age: number,
   ) {}
+
+  greet() {
+    console.log("My age: " + this.age);
+  }
 }
 
 const max = new User("Max", 36);
