@@ -34,3 +34,14 @@ const max = new User();
 max.firstName = "Max";
 max.lastName = "";
 console.log(max.fullName);
+
+class Employee extends User {
+  constructor(public jobTitle: string) {
+    super();
+    // super.firstName = "Max";
+  }
+
+  work() {
+    // ...
+  }
+}
