@@ -1,8 +1,8 @@
-const userName = "Max";
+// const userName = "Max";
 // userName = "Maximilian";
-let age = 30;
-
-age = 29;
+// let age = 30;
+//
+// age = 29;
 
 // function add(a: number, b: number) {
 //   let result; // scope is the same for var => only global and function scopes
