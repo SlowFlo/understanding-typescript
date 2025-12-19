@@ -1,5 +1,5 @@
 class User {
-  private _firstName: string = "";
+  protected _firstName: string = "";
   private _lastName: string = "";
 
   set firstName(name: string) {
@@ -33,6 +33,7 @@ User.greet();
 const max = new User();
 max.firstName = "Max";
 max.lastName = "";
+// max._firstName = "Max 2";
 console.log(max.fullName);
 
 class Employee extends User {
@@ -43,5 +44,7 @@ class Employee extends User {
 
   work() {
     // ...
+    console.log(this._firstName);
+    // super._firstName;
   }
 }
